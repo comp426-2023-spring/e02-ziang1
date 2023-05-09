@@ -1,8 +1,34 @@
 body {
+	font-family:monospace;
+	background-color: lightblue;
+	font-size:20px;
 }
 
-h1 {
+.rules {
+	align-items: center;
 }
 
-p {
+.rules_item {
+	padding: 6px;
 }
+
+.vert {
+	display: inline-flex;
+	flex-direction: column;
+}
+.title {
+	margin-bottom: 6px;
+}
+.button {
+	margin-top: 6px;
+}
+.output {
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 20px;
+}
+.horz {
+	align-items: center;
+	display: inline-block;
+}
+
